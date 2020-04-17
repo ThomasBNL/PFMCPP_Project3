@@ -51,44 +51,130 @@ struct CarWash            //1) a U.D.T. with a random number of member variables
 
 
 /*
- 1)
+ 1) 
  */
+struct Party
+{
+    int numberOfInvitedPeople = 55;
+    double budgetAvailable = 350;
+    
+    struct Wheather
+    {
+        bool sunnyWheather = true;
+        unsigned int windSpeed = 15; // miles/hour
+    };
+
+    Wheather partyWheather;
+};
 
 /*
  2)
  */
+struct House
+{
+    unsigned int numberOfRooms = 6;
+    bool openKitchen = true;
+
+    struct Family
+    {
+        unsigned int numberOfKids = 3;
+        bool parentsDivorced = false;
+        unsigned int kidsAtHighschool = 2;
+    };
+
+    void cleanTheHouse(bool useDetergents = true, int hourLimit = 8);
+
+    Family houseInhabitants;
+};
 
 /*
  3)
  */
+struct Runner
+{
+    float topSpeed = 11.5f;
+    unsigned int numberOfTrainingsPerWeek = 4;
+    unsigned int averageTrackLength = 6850;
+    bool male = true;
+};
 
 /*
  4)
  */
+struct BassGuitar
+{
+    int numberOfStrings = 5;
+    bool standardTuning = true;
+    unsigned int ageInYears = 15;
+    double purchaseValue = 1500;
+    void replaceStrings(unsigned int stringsBroken = 4);
+};
 
 /*
  5)
  */
+struct Hospital
+{
+    unsigned int surfaceAreaHospital = 1800;
+    int numberOfDoctors = 58;
+    float percentageFemaleEmployees = 64.15f;
+    bool privateClinic = false;
+};
 
 /*
  6)
  */
+struct Lumberjack
+{
+    unsigned int hoursWorked = 8;
+    int treesCutPerHour = 16;
+
+    float profitMade(float treeKiloPrice = 14.53f, double weightOfTrees = 1250.24);
+};
 
 /*
  7)
  */
+struct Clock
+{
+    bool displaysTimeDigital = false;
+    float powerConsumptionVolts = 4.3f;
+    unsigned int ageOfClockInYears = 87; 
+};
 
 /*
  8)
  */
+struct Zoo
+{
+    unsigned int numberOfSpecies = 318;
+    float ticketPrice = 32.50f;
+    unsigned int averageNumberOfVisitorsPerDay = 4802;
+    
+    void feedAnimals(int numberOfTimesPerDay = 4);
+};
 
 /*
- 9)
+ 9) 
  */
+ struct Youtube
+ {
+    unsigned int newVideosPostedThisMonth = 830259;
+    double revenueFromAdds = 6801000291.15;
+    bool serverMaintanence = false;
+    
+    void scanForCopyrightMaterial(int unscannedVideos = 15029, bool scanForVideoAndMusicCopyrightViolation = true);
+ };
 
 /*
- 10)
+ 10) 
  */
+struct Wedding
+{
+    Party::Wheather weddingWheater;
+    Party weddingParty;
+    BassGuitar guitarOfBassPlayerBand;
+};
 
 #include <iostream>
 int main()
