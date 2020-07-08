@@ -171,145 +171,154 @@ struct CarWash //2)
     Car carBeingServiced;  
 };
 
-
 /*
 1)
+WheatherStation
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Height of the wheather station
+    2) Does it contain a liquid?
+    3) Accuracy of the temperature measurement
+    4) Sensitivity of the temperature measurement
+    5) Display diagonal in inch
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Display temperature
+    2) Calculate humidity
+    3) Play alarm when thunder is expected
  */
 
 /*
 2)
+Grandfather
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) The age of the grandfather
+    2) Number of grand children
+    3) Does he have a beard
+    4) Monthly income
+    5) Number of years married
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Cheer joyfully
+    2) Reminiscent about youth
+    3) Sleep
  */
 
 /*
 3)
+Videogame
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) What is the recommended age
+    2) How is the game graded on the internet
+    3) Average duration till completion
+    4) Main character is male
+    5) release year
 3 things it can do:
-    1)
-    2)
-    3)
+    1) interact with console
+    2) load new level
+    3) gets scratched 
  */
 
 /*
 4)
+Jogger
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Heartrate of the jogger
+    2) Size feet of the jogger
+    3) Average distance per week in kilometers of the jogger
+    4) Average running speed in kilometers per hour of the jogger
+    5) Age of the jogger
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Increase pace
+    2) Drink water
+    3) Take a deep breath
  */
 
 /*
 5)
+Strings
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Open E string pitch in Hz
+    2) Thickness of the highest string
+    3) Thickness of the lowest string
+    4) Material density
+    5) String length
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Vibrate
+    2) Snap
+    3) Detune
  */
 
 /*
 6)
+Volume
 5 properties:
-    1)
-    2)
-    3)
+    1) Number of Decibels
+    2) Wattage supplied for output
+    3) Frequency range
     4)
     5)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Increase
+    2) Decrease
+    3) Distort
  */
 
 /*
 7)
+Fretboard
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Height of fretboard
+    2) Length of fretboard
+    3) Number of frets
+    4) mm distance till strings
+    5) has a coating
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Touch string
+    2) Touch human finger
+    3) Breaks
  */
 
 /*
 8)
+Amplifier
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Wattage of amplifier
+    2) Treble gain knob level
+    3) Bass gain knob level
+    4) Mid gain knob level
+    5) Volume knob gain
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Produce sound
+    2) Increase treble 
+    3) Reduce volume
  */
 
 /*
 9)
+SingleCoil
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Voltage
+    2) Magnet strength
+    3) Distance till string
+    4) Height of single coil
+    5) Year of production
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Detect string vibration
+    2) Transport voltage to amplifier
+    3) Increase detection sensitivity
  */
 
 /*
 10)
+ElectricGuitar
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Number of strings
+    2) Volume of the guitar
+    3) Fretboard length
+    4) Wattage of the amplifier
+    5) Number of single coils
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Produce sound
+    2) Increase volume
+    3) Consume power
  */
 
 #include <iostream>
