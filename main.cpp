@@ -253,8 +253,8 @@ Volume
     1) Number of Decibels
     2) Wattage supplied for output
     3) Frequency range
-    4)
-    5)
+    4) Amplitude voltage signal
+    5) Percentage of volume going to tweeter
 3 things it can do:
     1) Increase
     2) Decrease
@@ -310,11 +310,11 @@ SingleCoil
 10)
 ElectricGuitar
 5 properties:
-    1) Number of strings
-    2) Volume of the guitar
-    3) Fretboard length
-    4) Wattage of the amplifier
-    5) Number of single coils
+    1) Strings
+    2) Volume
+    3) Fretboard
+    4) Amplifier
+    5) SingleCoil
 3 things it can do:
     1) Produce sound
     2) Increase volume
