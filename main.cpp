@@ -173,7 +173,7 @@ struct CarWash //2)
 
 /*
 1)
-WheatherStation
+WeatherStation
 5 properties:
     1) Height of the wheather station
     2) Does it contain a liquid?
@@ -203,7 +203,7 @@ Grandfather
 
 /*
 3)
-Videogame
+VideoGame
 5 properties:
     1) What is the recommended age
     2) How is the game graded on the internet
@@ -233,11 +233,11 @@ Jogger
 
 /*
 5)
-Strings
+String
 5 properties:
-    1) Open E string pitch in Hz
-    2) Thickness of the highest string
-    3) Thickness of the lowest string
+    1) String pitch in Hz
+    2) Thickness of the string
+    3) Age of the string
     4) Material density
     5) String length
 3 things it can do:
@@ -248,7 +248,7 @@ Strings
 
 /*
 6)
-Volume
+OutputSignal
 5 properties:
     1) Number of Decibels
     2) Wattage supplied for output
@@ -293,7 +293,7 @@ Amplifier
 
 /*
 9)
-SingleCoil
+Pickup
 5 properties:
     1) Voltage
     2) Magnet strength
@@ -310,11 +310,11 @@ SingleCoil
 10)
 ElectricGuitar
 5 properties:
-    1) Strings
-    2) Volume
+    1) String
+    2) OutputSignal
     3) Fretboard
     4) Amplifier
-    5) SingleCoil
+    5) Pickup
 3 things it can do:
     1) Produce sound
     2) Increase volume
